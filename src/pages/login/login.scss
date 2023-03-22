@@ -1,0 +1,87 @@
+
+.login{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background:linear-gradient(rgba(128, 131, 227, 0.509),rgba(252, 96, 247, 0.366));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    .card{
+        display: flex;
+        width: 50%;
+        background-color: rgb(246, 243, 243);
+        border-radius: 10px;
+        min-height: 600px;
+        overflow: hidden;
+
+        .left{
+            background:linear-gradient(rgba(128, 131, 227, 0.509),rgba(252, 96, 247, 0.497)) ,url(https://images.pexels.com/photos/2346289/pexels-photo-2346289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center;
+            flex: 1; 
+            background-size:cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap:35px;
+            color: rgb(251, 251, 251);
+
+            h1{
+                font-size: 70px;
+                line-height: 90px;
+                font-family: 'Roboto', sans-serif;
+
+            }
+            p{
+                font-size: medium;
+            }
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 50%;
+                color: purple;
+                background-color: white;
+                padding: 10px;
+                border: none;
+                font-weight: bold;
+                cursor: pointer;
+
+            }
+          
+        }
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+            h1{
+                color:purple;
+
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input{
+                    border: none;
+                    border-bottom: 2px solid rgba(128, 0, 128, 0.39);
+                    padding: 15px 10px;
+
+                }
+                 button{
+                    width: 50%;
+                    color:white;
+                    background-color:purple;
+                    padding: 10px;
+                    border: none;
+                    font-weight: bold;
+                    cursor: pointer;
+
+                 }
+            }
+
+        }
+    }
+}
